@@ -8,13 +8,37 @@
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <style>
         /* You can put any styles here */
-    body {max-width: 500pt;}
-    img {max-width: 100%;}
+        @font-face {
+font-family:'ABWeb';src:url(../font/AB-web.woff2) format('woff2'),url(../font/AB-web.otf) format('opentype');font-style:normal;font-weight:400
+}
+
+@font-face {
+font-family:'ABWebKo';src:url(../font/AB-web-ko.woff2) format('woff2'),url(../font/AB-web-ko.otf) format('opentype');font-style:normal;font-weight:400
+}
+body,html {
+margin: 0;
+padding: 0;
+font-kerning: normal;
+text-rendering: optimizeLegibility;
+white-space: normal;
+word-break: keep-all;
+text-transform: uppercase;
+}
+
+:lang(en) {
+font-family: 'ABWeb',sans-serif;
+}
+
+:lang(ko) {
+font-family: 'ABWebKo','ABWeb',sans-serif;
+}
     </style>
 </head>
 
 <body>
+    <body lang='en' class="text">
     <h1>I want to be a worm</h1>
+    <h3>지렁이의 정석</h3>
     <p>
         Foundation - is often talked about in the context of building a structure/system. In this context, the soil has to be compacted to withstand the weight of what is built on top.
     </p >
