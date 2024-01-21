@@ -1,0 +1,112 @@
+<!-- This stylesheet is from Elliot's Recipe box ! -->
+
+*, *:before, *:after { box-sizing: border-box; }
+body {
+  padding: 0;
+  margin: 1em;
+  font-family: 'Times New Roman', Times, serif
+  font-size: 14px;
+  color: #000;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  -webkit-text-size-adjust: none; 
+}
+
+a {
+    color: #000;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul li, ol li {
+    margin-bottom: 30px;
+}
+
+h1 {
+    border-top: 3px solid #ff0000;
+}
+
+h2 {
+    text-align: center;
+    background-color: red;
+}
+
+h4 {
+    text-align: right;
+}
+hr {
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+/* title */
+.title {
+    border: 1px solid #000;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    
+}
+}
+.title > *:first-child {
+    margin-top: 0;
+}
+.title > *:last-child {
+    margin-bottom: 0;
+}
+
+/* worms */
+.worms {
+    border: 1px solid #000;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+}
+.worms > *:first-child {
+    margin-top: 0;
+}
+.worms > *:last-child {
+    margin-bottom: 0;
+}
+
+/* twosongs */
+.twosongs {
+    border: 1px solid #000;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+}
+.twosongs > *:first-child {
+    margin-top: 0;
+}
+.twosongs > *:last-child {
+    margin-bottom: 0;
+}
+
+/* reflection */
+.reflection {
+    border: 1px solid #000;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+}
+.reflection > *:first-child {
+    margin-top: 0;
+}
+.reflection > *:last-child {
+    margin-bottom: 0;
+}
