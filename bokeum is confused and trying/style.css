@@ -12,7 +12,7 @@ html {
   
   .recipe {
     text-align: left;
-    border: 1px solid #000;
+    border: thick double pink;
     width: 100%;
     max-width: 300px;
     padding: 10px;
@@ -24,8 +24,8 @@ html {
   }
   
   .open {
-    background: magenta;
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(53,13,78,1) 43%, rgba(38,59,64,1) 100%);    color: black;
+    background: rgb(255,36,250);
+    background: radial-gradient(circle, rgba(255,36,250,1) 0%, rgba(255,126,0,0.7543478260869565) 36%, rgba(255,224,0,0) 100%);
     color: whitesmoke;
   }
   
