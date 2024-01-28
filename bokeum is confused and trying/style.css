@@ -19,7 +19,7 @@ html {
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    background-color: #fff;
+    background-color: peachpuff;
     color: black;
   }
   
@@ -62,6 +62,6 @@ html {
     width: 100%;
     padding: 50px 0;
     text-align: left;
-    background-color: lightyellow;
+    background-color: lightgoldenrodyellow;
     margin-top: 20px;
   }
