@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family:'ABWeb';src:url(../font/AB-web.woff2) format('woff2'),url(../font/AB-web.otf) format('opentype');font-style:normal;font-weight:400    text-align: center;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(53,13,78,1) 43%, rgba(38,59,64,1) 100%);
+;
+
+}
+
+
+.message-yes{
+    display:none;
+}
+
+body[data-status="yes"]{
+    background: white;
+}
+body[data-status="yes"] .message-yes{
+    display: block;
+}
+body[data-status="yes"] .message-no{
+    display: none;
+
+}
+
+h1{
+    font-size:3rem;
+    color: white;
+}
+
+.time-indicator{
+    margin-top: 1em;
+}
