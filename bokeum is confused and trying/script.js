@@ -15,7 +15,8 @@ function schedule() {
       //toggle between messages
       $("#open-message").css("display", "block");
       $("#closed-message").css("display", "none");
-    } else {
+    } 
+    else {
       //remove and add class to change the gradient of the bg
       $("body").removeClass("open");
       $("body").addClass("closed");
@@ -33,11 +34,24 @@ function schedule() {
     schedule();
   }, 60000);
 
-  function myFunction() {
-    var x = document.getElementById("beefsouptranslate");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+
+
+  // Array of HTML document URLs
+ var htmlDocuments = [
+  'recipe1.html',
+  'recipe2.html',
+  'recipe3.html'
+];
+
+// Function to get a random index from the array
+function getRandomIndex(array) {
+  return Math.floor(Math.random() * array.length);
+}
+
+// Get a random HTML document URL
+var randomIndex = getRandomIndex(htmlDocuments);
+var randomDocument = htmlDocuments[randomIndex];
+
+// Set the src attribute of the iframe
+document.getElementById('randomIframe').src = randomDocument;
+

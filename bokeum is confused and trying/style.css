@@ -9,22 +9,6 @@ html {
     position: fixed;
     margin-top: 10%;
   }
-  
-  .recipe {
-    text-align: left;
-    border: thick double pink;
-    width: 100%;
-    max-width: 300px;
-    padding: 10px;
-    margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    background-color: peachpuff;
-    color: black;
-    
-
-  }
-  
   .open {
     background: rgb(255,36,250);
     background: radial-gradient(circle, rgba(255,36,250,1) 0%, rgba(255,126,0,0.7543478260869565) 36%, rgba(255,224,0,0) 100%);
@@ -36,6 +20,20 @@ html {
     background: radial-gradient(circle, rgba(255,210,36,1) 0%, rgba(0,255,1,1) 22%, rgba(255,224,0,0) 100%); 
     color: white;
   }
+  .recipe {
+    text-align: left;
+    border: thick double pink;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: peachpuff;
+    color: black;
+    overflow: auto;
+    }
+
 
  
   #diamond {
@@ -59,24 +57,27 @@ html {
     border-top: 70px solid white;
   }
 
+  
   #beefsouptranslate {
-    display: none;
-    width: 100%;
-    padding: 50px 0;
-    text-align: left;
-    background-color: lightgoldenrodyellow;
-    margin-top: 20px;
-  }
+  display: none;
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  text-align: left;
+  background-color: lightgoldenrodyellow;
+  margin-top: 20px;
+  overflow-y: scroll;
+}
 
-  .button {
-    background-color: beige;
-    border: none;
-    color: deeppink;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
+.button {
+  background-color: beige;
+  border: none;
+  color: deeppink;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  overflow: auto;
+}
   
