@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+  }
+  body {
+    height:100%;
+    width:100%;
+    font-family: sans-serif;
+    text-align:center;
+    position: fixed;
+    margin-top: 10%;
+  }
+
+iframe {
+    margin-top: 20px;
+}
+
+
+  .open {
+    background: rgb(255,36,250);
+    background: radial-gradient(circle, rgba(255,36,250,1) 0%, rgba(255,126,0,0.7543478260869565) 36%, rgba(255,224,0,0) 100%);
+    color: whitesmoke;
+  }
+  
+  .closed {
+    background: rgb(255,210,36);
+    background: radial-gradient(circle, rgba(255,210,36,1) 0%, rgba(0,255,1,1) 22%, rgba(255,224,0,0) 100%); 
+    color: white;
+  }
+
+  #diamond {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom: 70px solid white;
+    position: relative;
+    top: -50px;
+    margin: auto;
+
+  }
+  #diamond:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 70px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top: 70px solid white;
+  }
+
+  #beefsouptranslate {
+    display: none;
+    width: 100%;
+    padding: 50px 0;
+    text-align: left;
+    background-color: lightgoldenrodyellow;
+    margin-top: 20px;
+  }
+
+  .button {
+    background-color: beige;
+    border: none;
+    color: deeppink;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
