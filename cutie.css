@@ -1,15 +1,18 @@
 body {
-    padding: 40% 10%; /* Adjust padding to center the heart */
-    margin: auto;
+    padding: 40vh 0; /* Adjust padding to center the heart vertically */
+    margin: 0;
     background: rgb(255,36,36);
     background: radial-gradient(circle, rgba(255,36,36,0.28798185941043086) 0%, rgba(255,190,190,1) 36%, rgba(255,234,81,0.27664399092970526) 100%);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Ensure body takes up the full viewport height */
 }
 
 .heart {
     position: relative;
     width: 100px;
     height: 90px;
-    margin: auto;
 }
 
 .heart:before,
@@ -30,11 +33,4 @@ body {
     left: 0;
     transform: rotate(45deg);
     transform-origin: 100% 100%;
-}
-
-/* Media query for mobile devices */
-@media only screen and (max-width: 600px) {
-    body {
-        padding: 40% 0; /* Adjust padding to center the heart */
-    }
 }
