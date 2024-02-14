@@ -1,0 +1,35 @@
+body {
+padding: 40%;
+margin: auto;
+background: rgb(255,36,36);
+background: radial-gradient(circle, rgba(255,36,36,0.28798185941043086) 0%, rgba(255,190,190,1) 36%, rgba(255,234,81,0.27664399092970526) 100%);
+
+}
+
+
+.heart { 
+    position: relative; 
+    width: 100px; 
+    height: 90px;
+    margin: auto;
+
+} 
+
+.heart:before, .heart:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0; 
+    width: 50px; 
+    height: 80px; 
+    background: red; 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+} 
+
+.heart:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
